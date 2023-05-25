@@ -1,0 +1,7 @@
+GIT INIT - cria um novo repositório do Git.(é o primeiro comando ao criar um novo projeto). git init serve também para converter um projeto não versionado em um repositório do Git. git init é uma maneia muito fácil de criar novos projetos controlados por versão!
+
+GIT STATUS - serve para fornecer algumas informações importantes sobre a branch que você está usando, como nome da branch, commits feitos, etc, inclusive se a branch está atualizada em relação a master, e quais arquivos foram alterados!
+
+GIT ADD "NOME DO ARQUIVO" - para incluir as alterações de um arquivo no próximo commit. este comando serve apenas para 1 arquivo. para adicionar todos os arquivos modificados de uma só vez, use o GIT ADD -A. (o GIT ADD não altera o repositório e as alterações não são salvas até usarmos o GIT COMMITT)
+
+GIT COMMIT - para criar uma nova versão do código.
