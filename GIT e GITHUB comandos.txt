@@ -4,4 +4,10 @@ GIT STATUS - serve para fornecer algumas informações importantes sobre a branc
 
 GIT ADD "NOME DO ARQUIVO" - para incluir as alterações de um arquivo no próximo commit. este comando serve apenas para 1 arquivo. para adicionar todos os arquivos modificados de uma só vez, use o GIT ADD -A. (o GIT ADD não altera o repositório e as alterações não são salvas até usarmos o GIT COMMITT)
 
-GIT COMMIT - para criar uma nova versão do código.
+GIT COMMIT -m "descrição" - para criar uma nova versão do código.
+
+GIT REFLOG - para vizualizar versões anteriores do código
+GIT RESET --HARD numeroID - para restaurar uma versão anterior do repositório local.
+
+GIT BRANCH  - mostra todas as branchs e a branch que você está printa destacada
+GIT BRANCH + NOME - cria uma nova branch com o nome "NOME"
